@@ -2,7 +2,7 @@ name: Watch TCU seats
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes (GitHub may delay runs a bit)
+    - cron: "*/5 * * * *"    # every 5 minutes (GitHub may delay runs a bit)
   workflow_dispatch:
     inputs:
       test_push:
